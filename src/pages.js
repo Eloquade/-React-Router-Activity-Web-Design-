@@ -19,9 +19,9 @@ export function Home () {
                         <nav className="navbar"> 
                             
                                
-                                    <Link to="../about" className="active">About</Link>
-                                   <Link to="../events" className="active">Events</Link>
-                                    <Link to="../contact" className="active">Contact</Link>
+                                    <Link to="/about" className="active">About</Link>
+                                   <Link to="/events" className="active">Events</Link>
+                                    <Link to="/contact" className="active">Contact</Link>
                                     
                                 
                         </nav>    
