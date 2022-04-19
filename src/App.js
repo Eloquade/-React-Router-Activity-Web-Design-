@@ -18,10 +18,20 @@ function App() {
     <div>
       <Routes>
           <Route path='/' element={<Home />} />
+
           <Route path='/About' element={<About />} />
+            <Route path='About' element={<About />} />
+          <Route/>
+
           <Route path='/Events' element={<Events />} />
+            <Route path='/Events' element={<Events />} />
+          
+            
+
           <Route path='/Contact' element={<Contact />} />
+
           <Route path='/*' element={<Page404 />} />
+
           
       </Routes>
     </div> 

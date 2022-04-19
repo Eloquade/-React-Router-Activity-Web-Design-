@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 
-import picture from './picture1.jpg';
 import location from './location.jpg';
 import logo from './logo.jpg';
 
